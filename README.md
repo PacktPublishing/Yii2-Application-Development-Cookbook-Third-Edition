@@ -58,11 +58,11 @@ You can use HHVM for /usr/bin/php even if you have php-cli installed:
 
 
 ##Related Products
-*[Yii 1.1 Application Development Cookbook](https://www.packtpub.com/web-development/yii-11-application-development-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781849515481)
+* [Yii 1.1 Application Development Cookbook](https://www.packtpub.com/web-development/yii-11-application-development-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781849515481)
 
-*[Yii Application Development Cookbook - Second Edition](https://www.packtpub.com/web-development/yii-application-development-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781782163107)
+* [Yii Application Development Cookbook - Second Edition](https://www.packtpub.com/web-development/yii-application-development-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781782163107)
 
-*[Web Application Development with Yii 2 and PHP](https://www.packtpub.com/web-development/web-application-development-yii-2-and-php?utm_source=github&utm_medium=repository&utm_campaign=9781783981885)
+* [Web Application Development with Yii 2 and PHP](https://www.packtpub.com/web-development/web-application-development-yii-2-and-php?utm_source=github&utm_medium=repository&utm_campaign=9781783981885)
 
 ### Suggestions and Feedback 
  [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform)  if you have any feedback or suggestions.

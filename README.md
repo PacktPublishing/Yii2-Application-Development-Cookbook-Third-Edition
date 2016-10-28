@@ -50,6 +50,13 @@ Running command-line scripts with HHVM requires no special setup:
 You can use HHVM for /usr/bin/php even if you have php-cli installed:
 * $ sudo /usr/bin/update-alternatives --install /usr/bin/php php /usr/bin/hhvm 60
 
+####Software and Hardware list
+| Chapter  | Software required | OS required            |
+| -------- | ------------------| ------------           |
+| 1 to 12 |  Web Server, Database Server, PHP, Yii2          | Windows/Mac/Ubuntu     |
+
+
+
 ##Related Products
 *[Yii 1.1 Application Development Cookbook](https://www.packtpub.com/web-development/yii-11-application-development-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781849515481)
 

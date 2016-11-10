@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Yii 2 Application Development Cookbook, Third Edition by PacktPublishing</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Yii 2 Application Development Cookbook, Third Edition</h1>
+        <p>Code repository for Yii2 Application Development Cookbook Third Edition, published by Packt</p>
+
+        <p class="view"><a href="https://github.com/PacktPublishing/Yii2-Application-Development-Cookbook-Third-Edition">View the Project on GitHub <small>PacktPublishing/Yii2-Application-Development-Cookbook-Third-Edition</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/PacktPublishing/Yii2-Application-Development-Cookbook-Third-Edition/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/PacktPublishing/Yii2-Application-Development-Cookbook-Third-Edition/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/PacktPublishing/Yii2-Application-Development-Cookbook-Third-Edition">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="yii2-application-development-cookbook-third-edition" class="anchor" href="#yii2-application-development-cookbook-third-edition" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Yii2 Application Development Cookbook Third Edition</h1>
+
+<p>This is the code repository for <a href="https://github.com/PacktPublishing/Yii2-Application-Development-Cookbook-Third-Edition?utm_source=github&amp;utm_medium=repository&amp;utm_campaign=9781785281761">Yii2 Application Develoment Cookbook Third Edition</a>, published by Packt. It contains all the supporting project files necessary to work through the book from start to finish.</p>
+
+<h2>
+<a id="instructions-and-navigation" class="anchor" href="#instructions-and-navigation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Instructions and Navigation</h2>
+
+<p>All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
+You will see something similar to the following:</p>
+
+<pre><code> public function __construct($id, $module, ShoppingCart $cart, $config = [])
+    {
+        $this-&gt;cart = $cart;
+        parent::__construct($id, $module, $config);
+    }
+
+    public function behaviors()
+    {
+        return [
+            'verbs' =&gt; [
+                'class' =&gt; VerbFilter::className(),
+                'actions' =&gt; [
+                    'delete' =&gt; ['post'],
+                ],
+            ],
+        ];
+    }
+
+</code></pre>
+
+<h4>
+<a id="author-instructions" class="anchor" href="#author-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Author Instructions</h4>
+
+<p>HHVM is installed.</p>
+
+<p>Running PHP web scripts with HHVM is done by having your webserver talk to HHVM over FastCGI. Install nginx or Apache, and then:</p>
+
+<ul>
+<li>$ sudo /usr/share/hhvm/install_fastcgi.sh</li>
+<li>$ sudo /etc/init.d/hhvm restart</li>
+<li>(if using nginx)  $ sudo /etc/init.d/nginx restart</li>
+<li>(if using apache) $ sudo /etc/init.d/apache restart</li>
+</ul>
+
+<p>Detailed FastCGI directions are online at:</p>
+
+<ul>
+<li><a href="https://github.com/facebook/hhvm/wiki/FastCGI">https://github.com/facebook/hhvm/wiki/FastCGI</a></li>
+</ul>
+
+<p>If you're using HHVM to run web scripts, you probably want it to start at boot:</p>
+
+<ul>
+<li>$ sudo update-rc.d hhvm defaults</li>
+</ul>
+
+<p>Running command-line scripts with HHVM requires no special setup:</p>
+
+<ul>
+<li>$ hhvm whatever.php</li>
+</ul>
+
+<p>You can use HHVM for /usr/bin/php even if you have php-cli installed:</p>
+
+<ul>
+<li>$ sudo /usr/bin/update-alternatives --install /usr/bin/php php /usr/bin/hhvm 60</li>
+</ul>
+
+<h4>
+<a id="software-and-hardware-list" class="anchor" href="#software-and-hardware-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Software and Hardware list</h4>
+
+<table>
+<thead>
+<tr>
+<th>Chapter</th>
+<th>Software required</th>
+<th>OS required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 to 12</td>
+<td>Web Server, Database Server, PHP, Yii2</td>
+<td>Windows/Mac/Ubuntu</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="related-products" class="anchor" href="#related-products" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Related Products</h2>
+
+<ul>
+<li><p><a href="https://www.packtpub.com/web-development/yii-11-application-development-cookbook?utm_source=github&amp;utm_medium=repository&amp;utm_campaign=9781849515481">Yii 1.1 Application Development Cookbook</a></p></li>
+<li><p><a href="https://www.packtpub.com/web-development/yii-application-development-cookbook-second-edition?utm_source=github&amp;utm_medium=repository&amp;utm_campaign=9781782163107">Yii Application Development Cookbook - Second Edition</a></p></li>
+<li><p><a href="https://www.packtpub.com/web-development/web-application-development-yii-2-and-php?utm_source=github&amp;utm_medium=repository&amp;utm_campaign=9781783981885">Web Application Development with Yii 2 and PHP</a></p></li>
+</ul>
+
+<h3>
+<a id="suggestions-and-feedback" class="anchor" href="#suggestions-and-feedback" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Suggestions and Feedback</h3>
+
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform">Click here</a>  if you have any feedback or suggestions.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/PacktPublishing">PacktPublishing</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>

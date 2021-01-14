@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this product for only $5 on PacktPub.com](https://www.packtpub.com/)
------
-*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Yii2 Application Development Cookbook Third Edition
 This is the code repository for [Yii2 Application Develoment Cookbook Third Edition](https://github.com/PacktPublishing/Yii2-Application-Development-Cookbook-Third-Edition?utm_source=github&utm_medium=repository&utm_campaign=9781785281761), published by Packt. It contains all the supporting project files necessary to work through the book from start to finish.
 ##Instructions and Navigation
